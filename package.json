@@ -1,0 +1,25 @@
+{
+  "name": "should-you-pursue-freelancing-gdgc-batna-2025-talk",
+  "version": "1.0.0",
+  "description": "Slides for the GDGC Batna 2025 talk: Should You Pursue Freelancing?",
+  "main": "index.js",
+  "scripts": {
+    "start": "marp slides.md --html --watch",
+    "build": "marp slides.md --html -o dist/index.html"
+  },
+  "keywords": [
+    "marp",
+    "freelancing",
+    "talk",
+    "presentation",
+    "gdgc",
+    "batna",
+    "2025"
+  ],
+  "author": "Mohamed Yamani",
+  "license": "MIT",
+  "packageManager": "pnpm@10.2.1+sha512.398035c7bd696d0ba0b10a688ed558285329d27ea994804a52bad9167d8e3a72bcb993f9699585d3ca25779ac64949ef422757a6c31102c12ab932e5cbe5cc92",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.2.0"
+  }
+}
