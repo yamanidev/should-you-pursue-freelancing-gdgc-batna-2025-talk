@@ -4,7 +4,7 @@
   "description": "Slides for the GDGC Batna 2025 talk: Should You Pursue Freelancing?",
   "main": "index.js",
   "scripts": {
-    "start": "marp slides.md --html --watch",
+    "start": "marp slides.md --html -o dist/index.html --watch",
     "build": "marp slides.md --html -o dist/index.html"
   },
   "keywords": [
